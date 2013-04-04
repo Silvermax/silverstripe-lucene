@@ -127,7 +127,7 @@ class ZendSearchLuceneWrapper {
 
 	$objectClass = $object->ClassName;
 
-	if ( ! $objectClass::has_extension('ZendSearchLuceneSearchable') ) {
+	if ( ! Object::has_extension($objectClass,'ZendSearchLuceneSearchable') ) {
             return;
         }
 
