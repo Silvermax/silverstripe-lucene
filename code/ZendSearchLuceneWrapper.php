@@ -395,7 +395,7 @@ class ZendSearchLuceneWrapper {
         $possibleClasses = ClassInfo::subclassesFor($className);
         $extendedClasses = array();
         foreach( $possibleClasses as $possibleClass ) {
-            if ( $possibleClass::has_extension('ZendSearchLuceneSearchable') ) {
+            if ( Object::has_extension($possibleClass,'ZendSearchLuceneSearchable') ) {
                 $extendedClasses[] = $possibleClass;
             }
         }
