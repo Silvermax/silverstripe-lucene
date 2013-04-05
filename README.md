@@ -1,4 +1,4 @@
-## Lucene plugin for SilverStripe 3.0.x and 3.1
+## Lucene plugin for SilverStripe 3.0.x
 
 This plugin for the SilverStripe framework allows you to harness the power of 
 the Lucene search engine on your site.
@@ -16,7 +16,7 @@ Zend_Search_Lucene is a PHP port of the Apache project's Lucene search engine.
 This extension is inspired by the wpSearch plugin for WordPress.
 http://codefury.net/projects/wpSearch/
 
-Modified for SilverStripe 3.0.x and 3.1 
+Modified for SilverStripe 3.0.x
 -----------------------------------------------
 Graeme Smith 
 <gs78 (at) me (dot) com>
